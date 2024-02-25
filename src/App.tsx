@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 // import { StatusBar } from 'expo-status-bar';
 import {
-  Button,
   FlatList,
   Pressable,
   SafeAreaView,
@@ -169,7 +168,7 @@ const styles = StyleSheet.create({
   header: {
     textAlign: 'center',
     padding: 20,
-    fontSize: 80,
+    fontSize: 40,
     backgroundColor: '#ffffff',
     color: '#000000',
   },
@@ -181,7 +180,7 @@ const styles = StyleSheet.create({
   question: {
     textAlign: 'center',
     padding: 20,
-    fontSize: 32,
+    fontSize: 24,
   },
   item: {
     padding: 20,
@@ -190,7 +189,7 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    fontSize: 24,
+    fontSize: 14,
   },
   button: {
     alignSelf: 'center',
@@ -200,7 +199,7 @@ const styles = StyleSheet.create({
     elevation: 3,
     color: 'white',
     backgroundColor: 'black',
-    fontSize: 24,
+    fontSize: 16,
   },
 });
 
