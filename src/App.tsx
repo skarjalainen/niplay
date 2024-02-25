@@ -3,10 +3,12 @@ import React, { useEffect, useState } from 'react';
 import {
   Button,
   FlatList,
+  Pressable,
   SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
+  View,
 } from 'react-native';
 import questionsJson from './data/questions.json'
 
@@ -41,13 +43,6 @@ const shuffle = (array: Choice[]) => {
   } 
   return array; 
 };
-
-const getChoiceTitleById = (choices: Choice[], id: number | undefined): string => {
-  if (!id) {
-    return "";
-  }
-  return choices.find((choice) => choice.id === id)?.title || "";
-}
 
 const DATA: Question[] = questionsJson.map((q, i) => ({
   id: i,
@@ -98,6 +93,10 @@ const App = () => {
     setChoiceId(undefined);
   };
 
+  const getCurrentAnswer = () => {
+    return choices.find((c) => c.id === choiceId)?.title || "";
+  };
+
   const renderChoiceItem = ({ item }: { item: Choice }) => {
     const backgroundColor = item.id === choiceId ? '#003459' : '#00a8e8';
     const color = item.id === choiceId ? 'white' : 'black';
@@ -124,33 +123,36 @@ const App = () => {
             renderItem={renderChoiceItem}
             keyExtractor={item => `choice_${item.id}`}
             extraData={choiceId}
-          />
-          <Button
-            title="Lukitse vastaus"
-            disabled={choiceId === undefined}
-            onPress={handleCheckAnswer}
+            ListFooterComponent={
+              <View style={{ paddingTop: 20 }}>
+                <Pressable style={styles.button} disabled={choiceId === undefined} onPress={handleCheckAnswer}>
+                  <Text style={styles.button}>Lukitse vastaus</Text>
+                </Pressable>
+              </View>
+            }
           />
         </>
       )}
       {isCorrect === 1 && (
-        <>
+        <View style={{ flex: 1 }}>
           <Text style={styles.question}>{DATA[questionIndex].title}?</Text>
-          <Text style={styles.question}>{getChoiceTitleById(choices, choiceId)}</Text>
+          <Text style={styles.question}>{getCurrentAnswer()}</Text>
           <Text style={styles.question}>Vastaus on oikein, hienoa!</Text>
-          <Button
-            title="Seuraava kysymys"
-            onPress={handleNextQuestion}
-          />
-        </>
+          <Text style={{ paddingTop: 20 }} />
+          <Pressable style={styles.button} disabled={choiceId === undefined} onPress={handleNextQuestion}>
+            <Text style={styles.button}>Seuraava kysymys</Text>
+          </Pressable>
+        </View>
       )}
       {isCorrect === 2 && (
         <>
           <Text style={styles.question}>{DATA[questionIndex].title}?</Text>
+          <Text style={styles.question}>{getCurrentAnswer()}</Text>
           <Text style={styles.question}>Väärin meni!</Text>
-          <Button
-            title="Seuraava kysymys"
-            onPress={handleNextQuestion}
-          />
+          <Text style={{ paddingTop: 20 }} />
+          <Pressable style={styles.button} disabled={choiceId === undefined} onPress={handleNextQuestion}>
+            <Text style={styles.button}>Seuraava kysymys</Text>
+          </Pressable>
         </>
       )}
 
@@ -191,8 +193,14 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   button: {
-    padding: 20,
-    fontSize: 32,
+    alignSelf: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 4,
+    elevation: 3,
+    color: 'white',
+    backgroundColor: 'black',
+    fontSize: 24,
   },
 });
 
