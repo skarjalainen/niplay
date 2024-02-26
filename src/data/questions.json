@@ -7,31 +7,143 @@
         "answer4": "Hyttyset kuolevat sateella ja tilalle syntyy uusia hyttysiä"
     },
     {
-        "question": "Kysymys 2",
-        "answer1": "Oikea vastaus kysymykseen 2",
-        "answer2": "Väärä vastaus 1 kysymykseen 2",
-        "answer3": "Väärä vastaus 2 kysymykseen 2",
-        "answer4": "Väärä vastaus 3 kysymykseen 2"
+        "question": "Mikä on sukkapako",
+        "answer1": "Reikä sukkahousussa",
+        "answer2": "Varkaan pakoreitti",
+        "answer3": "Huligaanien tapahtuma",
+        "answer4": "Jumppalaji"
     },
     {
-        "question": "Kysymys 3",
-        "answer1": "Oikea vastaus kysymykseen 3",
-        "answer2": "Väärä vastaus 1 kysymykseen 3",
-        "answer3": "Väärä vastaus 2 kysymykseen 3",
-        "answer4": "Väärä vastaus 3 kysymykseen 3"
+        "question": "Onko villihevosia olemassa",
+        "answer1": "On, Islannin hevonen",
+        "answer2": "On, Prezewalskinhevonen",
+        "answer3": "On, Suomenhevonen",
+        "answer4": "On, Venäjän puoliverinen"
     },
     {
-        "question": "Kysymys 4",
-        "answer1": "Oikea vastaus kysymykseen 4",
-        "answer2": "Väärä vastaus 1 kysymykseen 4",
-        "answer3": "Väärä vastaus 2 kysymykseen 4",
-        "answer4": "Väärä vastaus 3 kysymykseen 4"
+        "question": "Miten koira oppii temppuja",
+        "answer1": "Ehdollistumalla",
+        "answer2": "Kuuntelemalla",
+        "answer3": "pakottamalla",
+        "answer4": "ohjastamalla"
     },
     {
-        "question": "Kysymys 5",
-        "answer1": "Oikea vastaus kysymykseen 5",
-        "answer2": "Väärä vastaus 1 kysymykseen 5",
-        "answer3": "Väärä vastaus 2 kysymykseen 5",
-        "answer4": "Väärä vastaus 3 kysymykseen 5"
+        "question": "Mikä eläin on yksiavioinen",
+        "answer1": "Joutsen",
+        "answer2": "Kissa",
+        "answer3": "Leijona",
+        "answer4": "Laiskiainen"
+    },
+    {
+        "question": "Mikä on musta-aukko",
+        "answer1": "Tiheä massan keskittymä avaruudessa",
+        "answer2": "Vyön soljen reikä",
+        "answer3": "komeetta taivaalla",
+        "answer4": "Virusperäinen tauti"
+    },
+    {
+        "question": "Mikä on miehen keskimääräinen veren määrä",
+        "answer1": "5 litraa",
+        "answer2": "10 litraa",
+        "answer3": "20 litraa",
+        "answer4": "1 litra"
+    },
+    {
+        "question": "Mikä on pälvisilsa",
+        "answer1": "Sieni infektio",
+        "answer2": "Kutittava ihottuma",
+        "answer3": "Kukkalaji",
+        "answer4": "Espanjalainen ruokalaji"
+    },
+    {
+        "question": "Mikä on korona avaruudessa",
+        "answer1": "Auringon ulompi kaasukehä",
+        "answer2": "Otsonikerroksen alakerros",
+        "answer3": "Hiukkaspilvi",
+        "answer4": "auringon sädekehä"
+    },
+    {
+        "question": "Missä harakka asuu",
+        "answer1": "metsissä ja asuinlähiöissä",
+        "answer2": "Muuttovaeltaa sopivaan lämpöön",
+        "answer3": "lumihangessa",
+        "answer4": "Harakka ei asu missään"
+    },
+    {
+        "question": "Mikä eläin on tappanut eniten ihmisiä",
+        "answer1": "Hyttynen",
+        "answer2": "käärme",
+        "answer3": "rotta",
+        "answer4": "kissa"
+    },
+    {
+        "question": "Mikä on maailman vahvin eläin",
+        "answer1": "Maailman vahvin eläin on Onthophagus taurus -kuoriainen, joka pystyy liikuttamaan 1 141 kertaa itsensä painoisia esineitä",
+        "answer2": "Leppäkerttu pystyy lentämään itseään isomman painon kanssa",
+        "answer3": "Elefantti pystyy vetämään kerrostaloa",
+        "answer4": "Mammutti pystyy kantamaan laumansa jäsenet"
+    },
+    {
+        "question": "Mikä on Olas",
+        "answer1": "Liukumista ohjaava ura suksen pohjassa",
+        "answer2": "Olkapään tekonivel",
+        "answer3": "katon tukipuu",
+        "answer4": "Hotelli"
+    },
+    {
+        "question": "Mikä on rimpi",
+        "answer1": "Sama kuin hete eli suon silmäke",
+        "answer2": "pitkospuu",
+        "answer3": "järven syvin kohta",
+        "answer4": "hiekasta muodostunut dyyni"
+    },
+    {
+        "question": "Mikä on neva",
+        "answer1": "Puuton avosuo",
+        "answer2": "Syvä metsäjärvi",
+        "answer3": "Suon silmäke",
+        "answer4": "Lahden pohjukka"
+    },
+    {
+        "question": "Mikä on ihon tehtävä",
+        "answer1": "Suojata ihmistä ulkoisilta tekijöiltä",
+        "answer2": "Pitää verisuonet paikoillaan",
+        "answer3": "tiivistää muita ihmisen osia",
+        "answer4": "yhteyttää verisuonien kanssa"
+    },
+    {
+        "question": "Miksi iho vanhenee",
+        "answer1": "Ihosta häviää kollageenia ja elastiinia",
+        "answer2": "Verisuonet haprastuvat",
+        "answer3": "Iho saa liikaa ulkoisia ärsykkeitä",
+        "answer4": "Ihosta häviää ajan saatossa nahkaa"
+    },
+    {
+        "question": "Kuka keksi AIV rehun",
+        "answer1": "Biokemian tutkija AI Virtanen",
+        "answer2": "Fysiikan professori Arvi Ilmari Villanen",
+        "answer3": "Maataloustutkija Asko Vallin",
+        "answer4": "Maatalon isäntä Arto Ilmari Virta"
+    },
+    {
+        "question": "Kuka keksi pesäpallolajin",
+        "answer1": "Tahko Pihkala",
+        "answer2": "Tarmo Pojola",
+        "answer3": "Eelis Haukela",
+        "answer4": "Toivo Lukkari"
+    },
+    {
+        "question": "Mikä haju karkoittaa ampiaisen",
+        "answer1": "Sipuli",
+        "answer2": "Tupakka",
+        "answer3": "Suklaa",
+        "answer4": "Maissi"
+    },
+    {
+        "question": "Maailman terveellisin marja",
+        "answer1": "Tyrni",
+        "answer2": "Puolukka",
+        "answer3": "Mustikka",
+        "answer4": "viinimarja"
     }
 ]
