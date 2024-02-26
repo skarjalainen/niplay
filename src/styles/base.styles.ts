@@ -24,7 +24,6 @@ export const baseStyles = StyleSheet.create({
   header: {
     textAlign: 'center',
     padding: 20,
-    paddingTop: 50,
     fontSize: 40,
     backgroundColor: colors.b7,
     color: 'black',
